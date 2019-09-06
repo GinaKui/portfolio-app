@@ -1,9 +1,8 @@
 import React from 'react';
 
 import LandingPage from './pages/LandingPage';
-import PortfolioPage from './pages/PortfolioPage';
+import ProjectPage from './pages/ProjectPage';
 import SkillPage from './pages/SkillPage';
-import NavBar from './layout/NavBar';
 import Footer from './layout/Footer';
 
 import './App.css';
@@ -11,10 +10,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <NavBar />
       <LandingPage />
       <SkillPage />
-      <PortfolioPage />
+      <ProjectPage />
       <Footer />
     </div>
   );
