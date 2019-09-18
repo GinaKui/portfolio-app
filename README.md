@@ -1,2 +1,2 @@
 ## Gina Portfolio
-web developer's portfolio
+web developer's portfolio website

@@ -5,7 +5,7 @@ import './ProjectPage.css';
 const ProjectPage = () => {
   
   return (
-    <section id="project-page">
+    <section className="ProjectPage">
       <h3>Project Show</h3>
       <div class='project-panel'>
       { projects.map(project => <ProjectCard key={project.name} project={project} />) }

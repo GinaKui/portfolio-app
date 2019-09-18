@@ -18,7 +18,7 @@ const SkillPage = () => {
     },
   ];
   return (
-    <section id="skill-page">
+    <section className='SkillPage'>
       <div className='container'>
         <h3>My Skills to Share</h3>
         <div className='skill-panel'>
