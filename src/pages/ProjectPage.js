@@ -7,7 +7,7 @@ const ProjectPage = () => {
   return (
     <section className="ProjectPage">
       <h3>Project Show</h3>
-      <div class='project-panel'>
+      <div className='project-panel'>
       { projects.map(project => <ProjectCard key={project.name} project={project} />) }
       </div>
     </section>

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+
 import SkillCard from '../components/SkillCard';
 import './SkillPage.css';
 
@@ -19,12 +21,16 @@ const SkillPage = () => {
   ];
   return (
     <section className='SkillPage'>
-      <div className='container'>
-        <h3>My Skills to Share</h3>
-        <div className='skill-panel'>
-        {skillSet.map(skill => (<SkillCard key={skill.title} title={skill.title} content={skill.content} />))}
-        </div>
-      </div>
+      <Container>
+        <Row>
+          <Col>
+            <h3>My Skills to Share</h3>
+          </Col>
+        </Row>
+        <Row>
+          {skillSet.map(skill => (<Col key={skill.title}><SkillCard title={skill.title} content={skill.content} /></Col>))}
+        </Row>
+      </Container>
     </section>
   );
 }
