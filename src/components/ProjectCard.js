@@ -1,4 +1,8 @@
 import React from 'react';
+import {
+  Card, CardImg, CardText, CardBody, CardLink,
+  CardTitle, CardSubtitle, Button
+} from 'reactstrap';
 
 import './ProjectCard.css';
 
@@ -6,9 +10,15 @@ const ProjectCard = ({ project }) => {
   const { name, description, img } = project;
   return (
     <div className='ProjectCard'>
-      <h5>{name}</h5>
-      <p>{img}</p>
-      <p>{description}</p>
+      <Card>
+        <CardImg src={img} />
+        <CardBody>
+          <CardTitle>{name}</CardTitle>
+
+          <CardText>{description}</CardText>
+          <CardLink>Link to Source Code</CardLink>
+        </CardBody>
+      </Card>
     </div>
   )
 }
