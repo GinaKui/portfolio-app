@@ -1,2 +1,2 @@
-## Gina Portfolio
+# Gina Portfolio
 web developer's portfolio website

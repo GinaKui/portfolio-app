@@ -1,5 +1,5 @@
 import React from 'react';
-import { CardColumns } from 'reactstrap';
+import { CardColumns, Container } from 'reactstrap';
 import ProjectCard from '../components/ProjectCard';
 import './ProjectPage.css';
 
@@ -7,18 +7,20 @@ const ProjectPage = () => {
   
   return (
     <section className="ProjectPage">
-      <h3>Project Show</h3>
-      <CardColumns>
-        { projects.map(project => <ProjectCard key={project.name} project={project} />) }
-      </CardColumns>
+      <Container>
+        <h3>My Projects</h3>
+        <CardColumns>
+          { projects.map(project => <ProjectCard key={project.name} project={project} />) }
+        </CardColumns>
+      </Container>
     </section>
   );
 };
 
 const projects = [
   {
-    "name": "project abc",
-    "description": "app function....",
+    "name": "project 1",
+    "description": "function123, tech stack a b c ....",
     "techs": ['react', 'javascript'],
     "img": "gif graph url",
     "deploy_url": "alive link for deployed app",

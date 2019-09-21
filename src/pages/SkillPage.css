@@ -1,4 +1,3 @@
-.skill-panel {
-  display: flex;
-  justify-content: space-around;
+.SkillPage {
+  margin: 50px auto;
 }

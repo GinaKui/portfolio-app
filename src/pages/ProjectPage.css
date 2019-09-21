@@ -1,4 +1,3 @@
-#project-page {
-  height: 100vh;
-  background: grey;
+.ProjectPage {
+  margin: 50px auto;
 }
