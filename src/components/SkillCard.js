@@ -1,7 +1,6 @@
 import React from 'react';
 import {
-  Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button
+  Card, CardText, CardHeader, CardBody
 } from 'reactstrap';
 
 import './SkillCard.css';
@@ -9,9 +8,9 @@ import './SkillCard.css';
 const SkillCard = ({ title, content }) => {
   return (
     <div className='SkillCard'>
-      <Card>
+      <Card body className='text-center'>
+        <CardHeader tag='h3'>{title}</CardHeader>
         <CardBody>
-          <CardTitle>{title}</CardTitle>
           <CardText>{content}</CardText>
         </CardBody>
       </Card>
