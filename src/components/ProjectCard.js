@@ -10,8 +10,8 @@ const ProjectCard = ({ project }) => {
   const { name, description, img } = project;
   return (
     <div className='ProjectCard'>
-      <Card body>
-        <CardImg top src={img} alt='project screenshot'/>
+      <Card>
+        <CardImg top src={img} alt='project screenshot' width='200px' height='150px'/>
         <CardBody>
           <CardTitle>{name}</CardTitle>
           <CardText>{description}</CardText>
