@@ -9,12 +9,12 @@ import './App.css';
 
 const App = () => {
   return (
-    <div className="App">
+    <main className="App">
       <LandingPage />
       <SkillPage />
       <ProjectPage />
       <Footer />
-    </div>
+    </main>
   );
 }
 

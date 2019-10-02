@@ -11,11 +11,11 @@ const SkillPage = (props) => {
       <Container>
         <Row>
           <Col>
-            <h3>My Skills to Share</h3>
+            <h2>SKILLS TO SHARE</h2>
           </Col>
         </Row>
         <Row>
-          {props.skillSet.map(skill => (<Col key={skill.title}><SkillCard title={skill.title} content={skill.content} /></Col>))}
+          {props.skillSet.map(skill => (<Col key={skill.title}><SkillCard title={skill.category} content={skill.content} /></Col>))}
         </Row>
       </Container>
     </section>

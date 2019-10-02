@@ -10,11 +10,11 @@ const ProjectPage = (props) => {
       <Container>
         <Row>
           <Col>
-            <h3>My Projects</h3>
+            <h2>MY PROJECTS</h2>
           </Col>
         </Row>
         <Row>
-          { props.projects.map(project => <Col key={project.name}><ProjectCard project={project} /></Col>) }
+          { props.projects.map(project => <Col key={project.id}><ProjectCard project={project} /></Col>) }
         </Row>
       </Container>
     </section>
@@ -24,28 +24,31 @@ const ProjectPage = (props) => {
 ProjectPage.defaultProps = {
   projects: [
     {
-      "name": "project 1",
-      "description": "function123, tech stack a b c ....",
-      "techs": ['react', 'javascript'],
+      "id": 1,
+      "name": "service-ticket",
+      "description": "User panel to keep track and update request ticket",
+      "techs": ['react', 'redux', 'javascript'],
       "img": "gif graph url",
-      "deploy_url": "alive link for deployed app",
-      "source_url": "github link for source code"
+      "deploy_url": "",
+      "src_url": "https://github.com/GinaKui/service-ticket"
     },
     {
-      "name": "project 2",
-      "description": "app function....",
+      "id": 2,
+      "name": "search github users",
+      "description": "UI to query github user information",
       "techs": ['react', 'javascript'],
       "img": "gif graph url",
-      "deploy_url": "alive link for deployed app",
-      "source_url": "github link for source code"
+      "deploy_url": "https://search-github-developerkui.netlify.com/",
+      "src_url": "https://github.com/GinaKui/search-github-users"
     },
     {
-      "name": "project 3",
-      "description": "app function....",
-      "techs": ['react', 'javascript'],
+      "id": 3,
+      "name": "hash-kitten",
+      "description": "SPA to query cute kitten",
+      "techs": ['react', 'javascript', 'tachyons', 'scss'],
       "img": "gif graph url",
-      "deploy_url": "alive link for deployed app",
-      "source_url": "github link for source code"
+      "deploy_url": "https://hashkitten19.netlify.com/",
+      "src_url": "https://github.com/GinaKui/hash-kitten"
     },
   ]
 };
