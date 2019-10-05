@@ -15,13 +15,13 @@ const LandingPage = () => {
             <a href='https://github.com/GinaKui'><i className="fab fa-github"></i>&nbsp;github</a>
           </li>
           <li className='mr-3'>
-            <a><i className="fab fa-codepen"></i>&nbsp;codepen</a>
+            <a href='https://codepen.io/ginakui/pens/popular'><i className="fab fa-codepen"></i>&nbsp;codepen</a>
           </li>
           <li><a href='https://www.freecodecamp.org/developerkui'><i className="fab fa-free-code-camp"></i>&nbsp;freecodecamp</a></li>
         </ul>
          
         <p>
-          <i className="fas fa-envelope"></i>&nbsp;developerkui@outlook.com &#124; 
+          <i className="fas fa-envelope"></i>&nbsp;developerkui@outlook.com &#124; &nbsp;
           <i className="fas fa-phone-alt"></i>&nbsp;(647)766-4746
         </p>
       </Jumbotron>

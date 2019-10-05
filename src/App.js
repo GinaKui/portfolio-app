@@ -19,3 +19,7 @@ const App = () => {
 }
 
 export default App;
+
+/**
+ * @todo refactor all .css to .scss
+ */
