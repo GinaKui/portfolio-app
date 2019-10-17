@@ -5,14 +5,14 @@ import {
   CardTitle
 } from 'reactstrap';
 
-import './ProjectCard.css';
+import './ProjectCard.scss';
 
 const ProjectCard = ({ project }) => {
   const { name, description, img } = project;
   return (
     <div className='ProjectCard'>
       <Card>
-        <CardImg top src={img} alt='app screenshot' width='200px' height='150px'/>
+        <CardImg top src={img} alt='app screenshot' width='200px' height='150px'cover/>
         <CardBody>
           <CardTitle>{name}</CardTitle>
           <CardText>{description}</CardText>

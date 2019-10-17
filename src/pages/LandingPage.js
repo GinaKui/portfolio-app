@@ -1,7 +1,7 @@
 import React from 'react';
 import { Jumbotron } from 'reactstrap';
 
-import './LandingPage.css';
+import './LandingPage.scss';
 
 const LandingPage = () => {
   return (
@@ -9,7 +9,7 @@ const LandingPage = () => {
       <Jumbotron>
         <h1 className='display-3'>Hello, I'm <span>Gina Kui</span></h1>
         <hr className='my-2' />
-        <p className='lead'><strong>MERN</strong> stack web developer</p>
+        <p className='lead'><strong>MERN</strong> stack web developer living at Toronto</p>
         <ul className='d-flex justify-content-center'>
           <li className='mr-3'>
             <a href='https://github.com/GinaKui'><i className="fab fa-github"></i>&nbsp;github</a>

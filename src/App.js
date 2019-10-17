@@ -5,7 +5,7 @@ import ProjectPage from './pages/ProjectPage';
 import SkillPage from './pages/SkillPage';
 import Footer from './layout/Footer';
 
-import './App.css';
+import './App.scss';
 
 const App = () => {
   return (
@@ -19,7 +19,3 @@ const App = () => {
 }
 
 export default App;
-
-/**
- * @todo refactor all .css to .scss
- */

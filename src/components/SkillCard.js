@@ -4,7 +4,7 @@ import {
   Card, CardText, CardHeader, CardBody
 } from 'reactstrap';
 
-import './SkillCard.css';
+import './SkillCard.scss';
 
 const SkillCard = ({ title, content }) => {
   return (
