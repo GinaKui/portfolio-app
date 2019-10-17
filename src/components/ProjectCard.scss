@@ -1,3 +1,12 @@
 .ProjectCard {
   background-color: grey;
+  overflow: hidden;
+
+  img {
+    transition: transform .5s;
+  }
+
+  img:hover {
+    transform: scale(1.05);
+  }
 }

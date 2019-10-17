@@ -12,7 +12,7 @@ const ProjectCard = ({ project }) => {
   return (
     <div className='ProjectCard'>
       <Card>
-        <CardImg top src={img} alt='app screenshot' width='200px' height='150px'cover/>
+        <CardImg top src={img} alt='app screenshot' width='200px' height='150px'/>
         <CardBody>
           <CardTitle>{name}</CardTitle>
           <CardText>{description}</CardText>
