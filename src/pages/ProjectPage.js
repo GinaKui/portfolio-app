@@ -1,7 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import ProjectCard from '../components/ProjectCard';
-import './ProjectPage.scss';
+import '../img/contact-book.png';
+import '../img/ekitten.png';
+import '../img/githuber.png';
+import '../img/service-ticket.png';
+import './ProjectPage.css';
 
 const ProjectPage = (props) => {
   
@@ -28,7 +32,7 @@ ProjectPage.defaultProps = {
       "name": "service-ticket",
       "description": "user panel to track request tickets",
       "techs": ['react', 'redux', 'javascript'],
-      "img": "/img/service-ticket.png",
+      "img": "../img/service-ticket.png",
       "deploy_url": "",
       "src_url": "https://github.com/GinaKui/service-ticket"
     },
@@ -37,7 +41,7 @@ ProjectPage.defaultProps = {
       "name": "search github users",
       "description": "UI to search for github user",
       "techs": ['react', 'javascript'],
-      "img": "/img/githuber.png",
+      "img": "../img/githuber.png",
       "deploy_url": "https://search-github-developerkui.netlify.com/",
       "src_url": "https://github.com/GinaKui/search-github-users"
     },
@@ -46,7 +50,7 @@ ProjectPage.defaultProps = {
       "name": "hash-kitten",
       "description": "SPA to display cute kittens",
       "techs": ['react', 'javascript', 'tachyons', 'scss'],
-      "img": "/img/ekitten.png",
+      "img": "../img/ekitten.png",
       "deploy_url": "https://hashkitten19.netlify.com/",
       "src_url": "https://github.com/GinaKui/hash-kitten"
     },
@@ -55,7 +59,7 @@ ProjectPage.defaultProps = {
       "name": "contact book",
       "description": "full stack app with JWT user auth",
       "techs": ['React', 'Node', 'Express.js', 'MongoDB'],
-      "img": "/img/contact-book.png",
+      "img": "../img/contact-book.png",
       "deploy_url": "https://contact-book-mern.herokuapp.com",
       "src_url": "https://github.com/GinaKui/contact-book"
     }

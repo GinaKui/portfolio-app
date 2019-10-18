@@ -1,0 +1,10 @@
+.SkillPage {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url(./markus-spiske-qjnAnF0jIGk-unsplash.jpg) center;
+}
+
+.SkillPage h2 {
+  margin-bottom: 32px;
+  color: white;
+}

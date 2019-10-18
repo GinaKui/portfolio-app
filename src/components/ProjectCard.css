@@ -1,0 +1,7 @@
+.ProjectCard img {
+    transition: transform .5s;
+}
+
+.ProjectCard img:hover {
+  transform: scale(1.05);
+}

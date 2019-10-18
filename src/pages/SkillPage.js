@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 import SkillCard from '../components/SkillCard';
-import './SkillPage.scss';
+import './SkillPage.css';
 
 const SkillPage = (props) => {
   

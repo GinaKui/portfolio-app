@@ -5,7 +5,7 @@ import {
   CardTitle
 } from 'reactstrap';
 
-import './ProjectCard.scss';
+import './ProjectCard.css';
 
 const ProjectCard = ({ project }) => {
   const { name, description, img } = project;

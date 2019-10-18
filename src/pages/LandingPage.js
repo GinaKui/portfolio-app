@@ -1,8 +1,6 @@
 import React from 'react';
 import { Jumbotron } from 'reactstrap';
 
-import './LandingPage.scss';
-
 const LandingPage = () => {
   return (
     <section className="LandingPage">

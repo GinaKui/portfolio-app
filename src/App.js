@@ -5,8 +5,6 @@ import ProjectPage from './pages/ProjectPage';
 import SkillPage from './pages/SkillPage';
 import Footer from './layout/Footer';
 
-import './App.scss';
-
 const App = () => {
   return (
     <main className="App">
@@ -16,6 +14,6 @@ const App = () => {
       <Footer />
     </main>
   );
-}
+};
 
 export default App;
