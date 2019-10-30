@@ -5,3 +5,7 @@
 .ProjectCard img:hover {
   transform: scale(1.05);
 }
+
+.ProjectCard {
+  overflow: hidden;
+}
