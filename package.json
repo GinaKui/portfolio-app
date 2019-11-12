@@ -7,7 +7,7 @@
     "email": "developerkui@outlook.com"
   },
   "license": "ISC",
-  "homepage": "https://developerkui.online",
+  "homepage": "http://developerkui.online",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "node-sass": "^4.13.0",
