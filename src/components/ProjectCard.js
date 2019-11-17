@@ -17,7 +17,7 @@ const ProjectCard = ({ project }) => {
           <CardTitle>{name}</CardTitle>
           <CardText>{description}</CardText>
           { project.src_url && <CardLink href={project.src_url}><i className="fab fa-github" title="github source code"></i></CardLink> }
-          { project.deploy_url && <CardLink href={project.deploy_url}>deployment</CardLink> }
+          { project.deploy_url && <CardLink href={project.deploy_url}>live</CardLink> }
         </CardBody>
       </Card>
     </div>

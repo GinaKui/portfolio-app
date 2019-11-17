@@ -3,7 +3,7 @@ import { Jumbotron } from 'reactstrap';
 
 const LandingPage = () => {
   return (
-    <section className="LandingPage">
+    //<section className="LandingPage">
       <Jumbotron>
         <h1 className='display-3'>Hello, I'm <span>Gina Kui</span></h1>
         <hr className='my-2' />
@@ -23,7 +23,7 @@ const LandingPage = () => {
           <i className="fas fa-phone-alt"></i>&nbsp;(647)766-4746
         </p>
       </Jumbotron>
-    </section>
+   // </section>
   );
 }
 
