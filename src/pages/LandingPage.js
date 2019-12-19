@@ -19,7 +19,9 @@ const LandingPage = () => {
         </ul>
          
         <p>
-          <a href="mailto:developerkui@outlook.com"><i className="fas fa-envelope"></i>&nbsp;developerkui@outlook.com &nbsp;&#124; &nbsp;</a>
+          <a href="mailto:developerkui@outlook.com">
+            <i className="fas fa-envelope"></i>&nbsp;developerkui@outlook.com &nbsp;&#124; &nbsp;
+          </a>
           <a href="tel:+1.647.766.4746">
             <i className="fas fa-phone-alt"></i>&nbsp;(647)766-4746
           </a>
