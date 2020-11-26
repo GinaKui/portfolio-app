@@ -5,7 +5,7 @@ import SkillCard from '../components/SkillCard';
 import './SkillPage.css';
 
 const SkillPage = (props) => {
-  
+// TODO: - add parallax effect
   return (
     <section className='SkillPage'>
       <Container>
