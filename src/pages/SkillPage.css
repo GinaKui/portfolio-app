@@ -1,5 +1,4 @@
 .SkillPage {
-  margin-top: -2rem;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -7,7 +6,7 @@
 .SkillPage h2 {
   margin-bottom: 32px;
   padding: 0; 
-  color: rgb(20, 19, 19);
+  color: white;
 }
 
 .Skill-parallax {
@@ -16,7 +15,7 @@
   background-image: url("./markus-spiske-qjnAnF0jIGk-unsplash__compressed.jpg");
 
   /* Set a specific height */
-  height: 25vh; 
+  height: 60vh; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;

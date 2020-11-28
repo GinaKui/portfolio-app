@@ -4,11 +4,8 @@ import { Container, Row, Col, CardDeck } from 'reactstrap';
 import SkillCard from '../components/SkillCard';
 import './SkillPage.css';
 
-const SkillPage = (props) => {
-// TODO: - add parallax effect
-  return (
-    <>
-    <div className="Skill-parallax"></div>
+const SkillPage = (props) => (
+  <div className="Skill-parallax">
     <Container className='SkillPage'>
       <Row>
         <Col>
@@ -21,10 +18,8 @@ const SkillPage = (props) => {
         )}
       </CardDeck>
     </Container>
-    <div className="Skill-parallax"></div>
-    </>
-  );
-};
+  </div>
+);
 
 SkillPage.defaultProps = {
   skillSet: [
