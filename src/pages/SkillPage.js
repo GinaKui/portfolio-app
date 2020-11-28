@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, CardDeck } from 'reactstrap';
 
 import SkillCard from '../components/SkillCard';
 import './SkillPage.css';
@@ -7,18 +7,18 @@ import './SkillPage.css';
 const SkillPage = (props) => {
 // TODO: - add parallax effect
   return (
-    <section className='SkillPage'>
-      <Container>
-        <Row>
-          <Col>
-            <h2>SKILLS TO SHARE</h2>
-          </Col>
-        </Row>
-        <Row>
-          {props.skillSet.map(skill => (<Col key={skill.title}><SkillCard title={skill.category} content={skill.content} /></Col>))}
-        </Row>
-      </Container>
-    </section>
+    <Container className='SkillPage'>
+      <Row>
+        <Col>
+          <h2>SKILLS TO SHARE</h2>
+        </Col>
+      </Row>
+      <CardDeck>
+        {props.skillSet.map(skill => 
+          <SkillCard key={skill.title} title={skill.category} content={skill.content} />
+        )}
+      </CardDeck>
+    </Container>
   );
 };
 

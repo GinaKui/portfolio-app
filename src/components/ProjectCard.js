@@ -10,18 +10,16 @@ import './ProjectCard.css';
 const ProjectCard = ({ project }) => {
   const { name, description, img } = project;
   return (
-    <div className='ProjectCard'>
-      <Card>
-        <CardImg top src={img} alt='app screenshot' width='100%' height='150px'/>
-        <CardBody>
-          <CardTitle>{name}</CardTitle>
-          <CardText>{description}</CardText>
-          { project.src_url && <CardLink href={project.src_url}><i className="fab fa-github" title="github source code"></i></CardLink> }
-          { project.deploy_url && <CardLink href={project.deploy_url}>live</CardLink> }
-        </CardBody>
-      </Card>
-    </div>
-  )
+    <Card className='ProjectCard'>
+      <CardImg top src={img} alt='app screenshot' width='100%' height='150px'/>
+      <CardBody>
+        <CardTitle>{name}</CardTitle>
+        <CardText>{description}</CardText>
+        { project.src_url && <CardLink href={project.src_url}><i className="fab fa-github" title="github source code"></i></CardLink> }
+        { project.deploy_url && <CardLink href={project.deploy_url}>live</CardLink> }
+      </CardBody>
+    </Card>
+  );
 };
 
 ProjectCard.defaultProps = {

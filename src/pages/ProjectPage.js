@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, CardDeck } from 'reactstrap';
 import ProjectCard from '../components/ProjectCard';
 import img4 from'../img/contact-book.png';
 import img3 from '../img/ekitten.png';
@@ -10,18 +10,16 @@ import './ProjectPage.css';
 const ProjectPage = (props) => {
   
   return (
-    <section className="ProjectPage">
-      <Container>
-        <Row>
-          <Col>
-            <h2>MY PROJECTS</h2>
-          </Col>
-        </Row>
-        <Row>
-          { props.projects.map(project => <Col key={project.id}><ProjectCard project={project} /></Col>) }
-        </Row>
-      </Container>
-    </section>
+    <Container className="ProjectPage">
+      <Row>
+        <Col>
+          <h2>MY PROJECTS</h2>
+        </Col>
+      </Row>
+      <CardDeck>
+        {props.projects.map(project => <ProjectCard key={project.id} project={project} />)}
+      </CardDeck>
+    </Container>
   );
 };
 
