@@ -5,3 +5,10 @@
 .ProjectPage h2 {
   margin-bottom: 32px;
 }
+.ProjectPage button {
+  border-width: 0;
+}
+.ProjectPage img {
+  margin: 0;
+  overflow: hidden;
+}

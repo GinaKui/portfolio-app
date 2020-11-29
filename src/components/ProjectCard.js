@@ -10,7 +10,6 @@ import './ProjectCard.css';
 
 const ProjectCard = ({ project }) => {
   const { name, description, img } = project;
-  // TODO: - add Modal to display big screenshot of the project
   // TODO: - capture gif as Modal showcare
   return (
     <Card className='ProjectCard'>
