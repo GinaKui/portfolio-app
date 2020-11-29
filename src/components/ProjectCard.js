@@ -4,14 +4,17 @@ import {
   Card, CardImg, CardText, CardBody, CardLink,
   CardTitle
 } from 'reactstrap';
+import ProjectModal from './ProjectModal';
 
 import './ProjectCard.css';
 
 const ProjectCard = ({ project }) => {
   const { name, description, img } = project;
+  // TODO: - add Modal to display big screenshot of the project
+  // TODO: - capture gif as Modal showcare
   return (
     <Card className='ProjectCard'>
-      <CardImg top src={img} alt='app screenshot' width='100%' height='150px'/>
+      <ProjectModal buttonImg={img} demoImg={img} />
       <CardBody>
         <CardTitle>{name}</CardTitle>
         <CardText>{description}</CardText>

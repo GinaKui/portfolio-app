@@ -5,8 +5,8 @@ import SkillCard from '../components/SkillCard';
 import './SkillPage.css';
 
 const SkillPage = (props) => (
-  <div className="Skill-parallax">
-    <Container className='SkillPage'>
+  <div className="Skill-parallax SkillPage">
+    <Container>
       <Row>
         <Col>
           <h2>SKILLS TO SHARE</h2>
