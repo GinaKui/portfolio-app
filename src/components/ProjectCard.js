@@ -9,11 +9,11 @@ import ProjectModal from './ProjectModal';
 import './ProjectCard.css';
 
 const ProjectCard = ({ project }) => {
-  const { name, description, img } = project;
+  const { name, description, img, demo } = project;
   // TODO: - capture gif as Modal showcare
   return (
     <Card className='ProjectCard'>
-      <ProjectModal buttonImg={img} demoImg={img} />
+      <ProjectModal buttonImg={img} demoImg={demo || img} />
       <CardBody>
         <CardTitle>{name}</CardTitle>
         <CardText>{description}</CardText>

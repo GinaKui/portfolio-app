@@ -5,6 +5,7 @@ import img4 from'../img/contact-book.png';
 import img3 from '../img/ekitten.png';
 import img2 from '../img/githuber.png';
 import img1 from '../img/service-ticket.png';
+import hashKittenDemo from '../img/hashkitten-demo-min.gif';
 import './ProjectPage.css';
 
 const ProjectPage = (props) => {
@@ -49,6 +50,7 @@ ProjectPage.defaultProps = {
       "description": "SPA to display cute kittens",
       "techs": ['react', 'javascript', 'tachyons', 'scss'],
       "img": img3,
+      "demo": hashKittenDemo,
       "deploy_url": "https://hashkitten19.netlify.com/",
       "src_url": "https://github.com/GinaKui/hash-kitten"
     },
@@ -63,5 +65,7 @@ ProjectPage.defaultProps = {
     }
   ]
 };
+
+// TODO: - compress demo gif to reduce file size
 
 export default ProjectPage;
