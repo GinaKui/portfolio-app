@@ -25,7 +25,7 @@ SkillPage.defaultProps = {
   skillSet: [
     {
       'category':'Front End',
-      'content': 'React, html5, css, javascript'
+      'content': 'React, html5, css, javascript, Bootstrap, Material-UI'
     },
     {
       'category':'Back End',

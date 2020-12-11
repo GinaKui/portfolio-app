@@ -6,6 +6,7 @@ import img3 from '../img/ekitten.png';
 import img2 from '../img/githuber.png';
 import img1 from '../img/service-ticket.png';
 import hashKittenDemo from '../img/hashkitten-demo-min.gif';
+import serviceTicketDemo from '../img/serviceticket-demo.gif';
 import './ProjectPage.css';
 
 const ProjectPage = (props) => {
@@ -29,9 +30,10 @@ ProjectPage.defaultProps = {
     {
       "id": 1,
       "name": "service-ticket",
-      "description": "user panel to track request tickets",
+      "description": "UI to display service requests with modal dialog for editing. Redux toolkits are used to track status. App is styled using material-css",
       "techs": ['react', 'redux', 'javascript'],
       "img": img1,
+      "demo": serviceTicketDemo,
       "deploy_url": "",
       "src_url": "https://github.com/GinaKui/service-ticket"
     },
@@ -47,7 +49,7 @@ ProjectPage.defaultProps = {
     {
       "id": 3,
       "name": "hash-kitten",
-      "description": "SPA to display cute kittens",
+      "description": "react responsive SPA making async request using fetch API. App is styled using tachyons",
       "techs": ['react', 'javascript', 'tachyons', 'scss'],
       "img": img3,
       "demo": hashKittenDemo,
@@ -67,5 +69,6 @@ ProjectPage.defaultProps = {
 };
 
 // TODO: - compress demo gif to reduce file size
+// TODO: - add theme-color project
 
 export default ProjectPage;
