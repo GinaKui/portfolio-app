@@ -5,8 +5,10 @@ import img4 from'../img/contact-book.png';
 import img3 from '../img/ekitten.png';
 import img2 from '../img/githuber.png';
 import img1 from '../img/service-ticket.png';
-import hashKittenDemo from '../img/hashkitten-demo-min.gif';
+import hashKittenDemo from '../img/hashkitten-demo.gif';
 import serviceTicketDemo from '../img/serviceticket-demo.gif';
+import gitHubberDemo from '../img/githuber-demo.gif';
+import contactBookDemo from '../img/contactbook-demo.gif';
 import './ProjectPage.css';
 
 const ProjectPage = (props) => {
@@ -30,7 +32,7 @@ ProjectPage.defaultProps = {
     {
       "id": 1,
       "name": "service-ticket",
-      "description": "UI to display service requests with modal dialog for editing. Redux toolkits are used to track status. App is styled using material-css",
+      "description": "React app to display service requests with modal dialog for editing. Redux toolkits are used to track status. App is styled using material-css",
       "techs": ['react', 'redux', 'javascript'],
       "img": img1,
       "demo": serviceTicketDemo,
@@ -40,9 +42,10 @@ ProjectPage.defaultProps = {
     {
       "id": 2,
       "name": "search github users",
-      "description": "UI to search for github user",
+      "description": "SPA built by react hooks and react-router-dom. Consume github API by axios",
       "techs": ['react', 'javascript'],
       "img": img2,
+      "demo": gitHubberDemo,
       "deploy_url": "https://search-github-developerkui.netlify.com/",
       "src_url": "https://github.com/GinaKui/search-github-users"
     },
@@ -59,9 +62,10 @@ ProjectPage.defaultProps = {
     {
       "id": 4,
       "name": "contact book",
-      "description": "full stack app with JWT user auth",
+      "description": "RESTful app builted by MERN (mongoose, express, react, node.js). User authorization is implemented using json web token",
       "techs": ['React', 'Node', 'Express.js', 'MongoDB'],
       "img": img4,
+      "demo": contactBookDemo,
       "deploy_url": "https://contact-book-mern.herokuapp.com",
       "src_url": "https://github.com/GinaKui/contact-book"
     }
