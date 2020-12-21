@@ -25,15 +25,15 @@ SkillPage.defaultProps = {
   skillSet: [
     {
       'category':'Front End',
-      'content': 'React, html5, css, javascript, Bootstrap, Material-UI'
+      'content': 'React, html5, css, sass, javascript, Bootstrap, Material-UI'
     },
     {
       'category':'Back End',
-      'content': 'Node.js, Express.js, MongoDB'
+      'content': 'Node.js, Express.js, MongoDB, REST apis'
     },
     {
       'category':'Development Tooling',
-      'content': 'Git, npm, webpack, babel'
+      'content': 'Git, npm, webpack, babel, heroku'
     },
   ]
 }
