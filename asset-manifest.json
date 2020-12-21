@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ce4d675d.chunk.css",
+    "main.js": "/static/js/main.e22771a1.chunk.js",
+    "main.js.map": "/static/js/main.e22771a1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f0571799.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f0571799.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.73939092.chunk.js": "/static/js/2.73939092.chunk.js",
+    "static/js/2.73939092.chunk.js.map": "/static/js/2.73939092.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.ce4d675d.chunk.css.map": "/static/css/main.ce4d675d.chunk.css.map",
+    "static/js/2.73939092.chunk.js.LICENSE.txt": "/static/js/2.73939092.chunk.js.LICENSE.txt",
+    "static/media/contact-book.fefd4a63.png": "/static/media/contact-book.fefd4a63.png",
+    "static/media/contactbook-demo.e9d811f5.gif": "/static/media/contactbook-demo.e9d811f5.gif",
+    "static/media/ekitten.ebccbbf2.png": "/static/media/ekitten.ebccbbf2.png",
+    "static/media/githuber-demo.2a4d68fc.gif": "/static/media/githuber-demo.2a4d68fc.gif",
+    "static/media/githuber.17884bff.png": "/static/media/githuber.17884bff.png",
+    "static/media/hashkitten-demo.f002740f.gif": "/static/media/hashkitten-demo.f002740f.gif",
+    "static/media/SkillPage.css": "/static/media/markus-spiske-qjnAnF0jIGk-unsplash__compressed.5b88328a.jpg",
+    "static/media/service-ticket.e241d07e.png": "/static/media/service-ticket.e241d07e.png",
+    "static/media/serviceticket-demo.cb3d5160.gif": "/static/media/serviceticket-demo.cb3d5160.gif",
+    "static/media/themeColor.024bf93b.png": "/static/media/themeColor.024bf93b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0571799.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.73939092.chunk.js",
+    "static/css/main.ce4d675d.chunk.css",
+    "static/js/main.e22771a1.chunk.js"
+  ]
+}
