@@ -16,7 +16,7 @@ const ProjectModal = (props) => {
   return (
     <>
       <Button className="bg-transparent" onClick={toggle} style={{padding: 0}}>
-        <img src={buttonImg} width='100%' height='150px'/>
+        <img src={buttonImg} width='100%' height='100%'/>
       </Button>
       <Modal isOpen={modal} toggle={toggle} className={className}>
         <ModalBody>

@@ -5,6 +5,7 @@ import img4 from'../img/contact-book.png';
 import img3 from '../img/ekitten.png';
 import img2 from '../img/githuber.png';
 import img1 from '../img/service-ticket.png';
+import themeColor from '../img/themeColor.png';
 import hashKittenDemo from '../img/hashkitten-demo.gif';
 import serviceTicketDemo from '../img/serviceticket-demo.gif';
 import gitHubberDemo from '../img/githuber-demo.gif';
@@ -20,9 +21,13 @@ const ProjectPage = (props) => {
           <h2>MY PROJECTS</h2>
         </Col>
       </Row>
-      <CardDeck>
-        {props.projects.map(project => <ProjectCard key={project.id} project={project} />)}
-      </CardDeck>
+      <Row>
+        {props.projects.map(project => 
+          <Col sm="6" md="4">
+            <ProjectCard key={project.id} project={project} />
+          </Col>
+        )}
+      </Row>
     </Container>
   );
 };
@@ -68,7 +73,16 @@ ProjectPage.defaultProps = {
       "demo": contactBookDemo,
       "deploy_url": "https://contact-book-mern.herokuapp.com",
       "src_url": "https://github.com/GinaKui/contact-book"
-    }
+    },
+    {
+      "id": 5,
+      "name": "theme color",
+      "description": "Single page react app to pick theme color. Material-ui is used to style the app",
+      "techs": ['react', 'material-ui', 'react-router-dom'],
+      "img": themeColor,
+      "deploy_url": "",
+      "src_url": "https://github.com/GinaKui/theme-color"
+    },
   ]
 };
 
