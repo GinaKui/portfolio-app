@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Button, Modal,  ModalBody } from 'reactstrap';
 
 const ProjectModal = (props) => {
   const {
@@ -18,7 +18,7 @@ const ProjectModal = (props) => {
       <Button className="bg-transparent" onClick={toggle} style={{padding: 0}}>
         <img src={buttonImg} width='100%' height='100%'/>
       </Button>
-      <Modal isOpen={modal} toggle={toggle} className={className}>
+      <Modal isOpen={modal} toggle={toggle} className={className} centered={true} size='lg'>
         <ModalBody>
         <img src={demoImg} width='100%' height='100%'/>
         </ModalBody>

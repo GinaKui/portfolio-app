@@ -29,7 +29,7 @@ SkillPage.defaultProps = {
     },
     {
       'category':'Back End',
-      'content': 'Node.js, Express.js, MongoDB, REST apis'
+      'content': 'Node.js, Express.js, MongoDB, RESTful apis'
     },
     {
       'category':'Development Tooling',
