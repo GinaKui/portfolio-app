@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
-  Card, CardImg, CardText, CardBody, CardLink,
+  Card, CardText, CardBody, CardLink,
   CardTitle
 } from 'reactstrap';
 import ProjectModal from './ProjectModal';
