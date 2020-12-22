@@ -6,7 +6,8 @@ const ProjectModal = (props) => {
   const {
     buttonImg,
     demoImg,
-    className
+    className,
+    projectName
   } = props;
 
   const [modal, setModal] = useState(false);
@@ -16,11 +17,11 @@ const ProjectModal = (props) => {
   return (
     <>
       <Button className="bg-transparent" onClick={toggle} style={{padding: 0}}>
-        <img src={buttonImg} width='100%' height='100%'/>
+        <img src={buttonImg} width='100%' height='100%' alt={projectName}/>
       </Button>
       <Modal isOpen={modal} toggle={toggle} className={className} centered={true} size='lg'>
         <ModalBody>
-        <img src={demoImg} width='100%' height='100%'/>
+        <img src={demoImg} width='100%' height='100%' alt={`demo ${projectName}`}/>
         </ModalBody>
       </Modal>
     </>

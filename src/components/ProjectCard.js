@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
   // TODO: - capture gif as Modal showcare
   return (
     <Card className='ProjectCard'>
-      <ProjectModal buttonImg={img} demoImg={demo || img} />
+      <ProjectModal buttonImg={img} demoImg={demo || img} projectName={name}/>
       <CardBody>
         <CardTitle>{name}</CardTitle>
         <CardText>{description}</CardText>

@@ -10,6 +10,7 @@ import hashKittenDemo from '../img/hashkitten-demo.gif';
 import serviceTicketDemo from '../img/serviceticket-demo.gif';
 import gitHubberDemo from '../img/githuber-demo.gif';
 import contactBookDemo from '../img/contactbook-demo.gif';
+import themeColorDemo from '../img/themeColor-demo.gif';
 import './ProjectPage.css';
 
 const ProjectPage = (props) => {
@@ -77,9 +78,10 @@ ProjectPage.defaultProps = {
     {
       "id": 5,
       "name": "theme color",
-      "description": "Single page react app to pick theme color. Material-ui is used to style the app",
+      "description": "Single page react app to pick color and generate theme color palette. Material-ui is used to style the app",
       "techs": ['react', 'material-ui', 'react-router-dom'],
       "img": themeColor,
+      "demo": themeColorDemo,
       "deploy_url": "",
       "src_url": "https://github.com/GinaKui/theme-color"
     },
