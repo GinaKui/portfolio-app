@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, CardDeck } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import ProjectCard from '../components/ProjectCard';
 import img4 from'../img/contact-book.png';
 import img3 from '../img/ekitten.png';
