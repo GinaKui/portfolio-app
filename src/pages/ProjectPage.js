@@ -24,7 +24,7 @@ const ProjectPage = (props) => {
       </Row>
       <Row>
         {props.projects.map(project => 
-          <Col sm="6" md="4">
+          <Col sm="6" lg="4">
             <ProjectCard key={project.id} project={project} />
           </Col>
         )}

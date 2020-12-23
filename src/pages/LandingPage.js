@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron } from 'reactstrap';
+import { Jumbotron, Button } from 'reactstrap';
 
 const LandingPage = () => {
   return (
@@ -9,13 +9,15 @@ const LandingPage = () => {
         <hr className='my-2' />
         <p className='lead'><strong>MERN</strong> stack web developer living in Toronto</p>
         <ul className='d-flex justify-content-center'>
-          <li className='mr-3'>
-            <a href='https://github.com/GinaKui'><i className="fab fa-github"></i>&nbsp;github</a>
+          <li style={{marginLeft: '-30px'}}>
+            <Button outline color="dark" target="_blank" href='https://github.com/GinaKui'><i className="fab fa-github"></i>&nbsp;github</Button>
           </li>
-          <li className='mr-3'>
-            <a href='https://codepen.io/ginakui/pens/popular'><i className="fab fa-codepen"></i>&nbsp;codepen</a>
+          <li className='ml-3'>
+            <Button outline color="dark" target="_blank" href='https://codepen.io/ginakui/pens/popular'><i className="fab fa-codepen"></i>&nbsp;codepen</Button>
           </li>
-          <li><a href='https://www.freecodecamp.org/developerkui'><i className="fab fa-free-code-camp"></i>&nbsp;freecodecamp</a></li>
+          <li className='ml-3'>
+            <Button outline color="dark" target="_blank" href='https://www.freecodecamp.org/developerkui'><i className="fab fa-free-code-camp"></i>&nbsp;freecodecamp</Button>
+          </li>
         </ul>
          
         <p>
