@@ -20,8 +20,11 @@ li {
   list-style: none;
 }
 
-a,
-a:hover,
-a:visited {
+a:any-link {
   text-decoration: none;
+  color: inherit;
+}
+ 
+a:hover {
+  color: darkblue;
 }
