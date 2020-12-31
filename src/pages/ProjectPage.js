@@ -82,7 +82,7 @@ ProjectPage.defaultProps = {
       "techs": ['react', 'material-ui', 'react-router-dom'],
       "img": themeColor,
       "demo": themeColorDemo,
-      "deploy_url": "",
+      "deploy_url": "https://themepalette-gina.netlify.app/",
       "src_url": "https://github.com/GinaKui/theme-color"
     },
   ]
