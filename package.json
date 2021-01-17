@@ -15,8 +15,8 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-scripts": "^4.0.1",
-    "reactstrap": "^8.7.1",
-    "source-map-explorer": "^2.5.1"
+    "reactstrap": "^8.8.1",
+    "source-map-explorer": "^2.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
